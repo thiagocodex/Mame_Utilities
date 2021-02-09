@@ -1,4 +1,5 @@
 <mame build="0.228 (mame0228)" debug="no" mameconfig="10">
+
     <machine name="1941" sourcefile="cps1.cpp">
         <description>1941: Counter Attack (World 900227)</description>
         <year>1990</year>
@@ -169,6 +170,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="1941j" sourcefile="cps1.cpp" cloneof="1941" romof="1941">
         <description>1941: Counter Attack (Japan)</description>
         <year>1990</year>
@@ -354,6 +356,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="1941r1" sourcefile="cps1.cpp" cloneof="1941" romof="1941">
         <description>1941: Counter Attack (World)</description>
         <year>1990</year>
@@ -524,6 +527,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="1941u" sourcefile="cps1.cpp" cloneof="1941" romof="1941">
         <description>1941: Counter Attack (USA 900227)</description>
         <year>1990</year>
@@ -694,6 +698,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="3wonders" sourcefile="cps1.cpp">
         <description>Three Wonders (World 910520)</description>
         <year>1991</year>
@@ -869,6 +874,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="3wondersb" sourcefile="cps1.cpp" cloneof="3wonders" romof="3wonders">
         <description>Three Wonders (bootleg)</description>
         <year>1991</year>
@@ -1029,6 +1035,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="3wondersh" sourcefile="cps1.cpp" cloneof="3wonders" romof="3wonders">
         <description>Three Wonders (hack)</description>
         <year>1991</year>
@@ -1212,6 +1219,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="3wondersr1" sourcefile="cps1.cpp" cloneof="3wonders" romof="3wonders">
         <description>Three Wonders (World 910513)</description>
         <year>1991</year>
@@ -1387,6 +1395,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="3wondersu" sourcefile="cps1.cpp" cloneof="3wonders" romof="3wonders">
         <description>Three Wonders (USA 910520)</description>
         <year>1991</year>
@@ -1562,6 +1571,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="area88" sourcefile="cps1.cpp" cloneof="unsquad" romof="unsquad">
         <description>Area 88 (Japan)</description>
         <year>1989</year>
@@ -1744,6 +1754,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="area88r" sourcefile="cps1.cpp" cloneof="unsquad" romof="unsquad">
         <description>Area 88 (Japan Resale Ver.)</description>
         <year>1989</year>
@@ -1911,6 +1922,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="captcomm" sourcefile="cps1.cpp">
         <description>Captain Commando (World 911202)</description>
         <year>1991</year>
@@ -2089,6 +2101,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="captcommb" sourcefile="cps1.cpp" cloneof="captcomm" romof="captcomm">
         <description>Captain Commando (bootleg)</description>
         <year>1991</year>
@@ -2252,6 +2265,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="captcommj" sourcefile="cps1.cpp" cloneof="captcomm" romof="captcomm">
         <description>Captain Commando (Japan 911202)</description>
         <year>1991</year>
@@ -2430,6 +2444,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="captcommjr1" sourcefile="cps1.cpp" cloneof="captcomm" romof="captcomm">
         <description>Captain Commando (Japan 910928)</description>
         <year>1991</year>
@@ -2608,6 +2623,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="captcommr1" sourcefile="cps1.cpp" cloneof="captcomm" romof="captcomm">
         <description>Captain Commando (World 911014)</description>
         <year>1991</year>
@@ -2786,6 +2802,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="captcommu" sourcefile="cps1.cpp" cloneof="captcomm" romof="captcomm">
         <description>Captain Commando (USA 910928)</description>
         <year>1991</year>
@@ -2964,6 +2981,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="cawing" sourcefile="cps1.cpp">
         <description>Carrier Air Wing (World 901012)</description>
         <year>1990</year>
@@ -3132,6 +3150,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="cawingj" sourcefile="cps1.cpp" cloneof="cawing" romof="cawing">
         <description>U.S. Navy (Japan 901012)</description>
         <year>1990</year>
@@ -3315,6 +3334,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="cawingr1" sourcefile="cps1.cpp" cloneof="cawing" romof="cawing">
         <description>Carrier Air Wing (World 901009)</description>
         <year>1990</year>
@@ -3483,6 +3503,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="cawingu" sourcefile="cps1.cpp" cloneof="cawing" romof="cawing">
         <description>Carrier Air Wing (USA 901130)</description>
         <year>1990</year>
@@ -3666,6 +3687,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="cawingur1" sourcefile="cps1.cpp" cloneof="cawing" romof="cawing">
         <description>Carrier Air Wing (USA 901012)</description>
         <year>1990</year>
@@ -3834,6 +3856,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="chikij" sourcefile="cps1.cpp" cloneof="mtwins" romof="mtwins">
         <description>Chiki Chiki Boys (Japan 900619)</description>
         <year>1990</year>
@@ -4013,6 +4036,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="cworld2j" sourcefile="cps1.cpp">
         <description>Adventure Quiz Capcom World 2 (Japan 920611)</description>
         <year>1992</year>
@@ -4192,6 +4216,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="cworld2ja" sourcefile="cps1.cpp" cloneof="cworld2j" romof="cworld2j">
         <description>Adventure Quiz Capcom World 2 (Japan 920611, B-Board 90629B-3, no battery)</description>
         <year>1992</year>
@@ -4353,6 +4378,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="cworld2jb" sourcefile="cps1.cpp" cloneof="cworld2j" romof="cworld2j">
         <description>Adventure Quiz Capcom World 2 (Japan 920611, B-Board 91634B-2)</description>
         <year>1992</year>
@@ -4516,6 +4542,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="daimakai" sourcefile="cps1.cpp" cloneof="ghouls" romof="ghouls">
         <description>Daimakaimura (Japan)</description>
         <year>1988</year>
@@ -4713,6 +4740,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="daimakair" sourcefile="cps1.cpp" cloneof="ghouls" romof="ghouls">
         <description>Daimakaimura (Japan Resale Ver.)</description>
         <year>1988</year>
@@ -4883,6 +4911,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="dino" sourcefile="cps1.cpp">
         <description>Cadillacs and Dinosaurs (World 930201)</description>
         <year>1993</year>
@@ -4960,6 +4989,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="dinoa" sourcefile="cps1.cpp" cloneof="dino" romof="dino">
         <description>Cadillacs and Dinosaurs (Asia TW 930223)</description>
         <year>1993</year>
@@ -5037,6 +5067,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="dinohunt" sourcefile="cps1.cpp" cloneof="dino" romof="dino">
         <description>Dinosaur Hunter (Chinese bootleg of Cadillacs and Dinosaurs)</description>
         <year>1993</year>
@@ -5209,6 +5240,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="dinoj" sourcefile="cps1.cpp" cloneof="dino" romof="dino">
         <description>Cadillacs: Kyouryuu Shin Seiki (Japan 930201)</description>
         <year>1993</year>
@@ -5286,6 +5318,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="dinou" sourcefile="cps1.cpp" cloneof="dino" romof="dino">
         <description>Cadillacs and Dinosaurs (USA 930201)</description>
         <year>1993</year>
@@ -5363,6 +5396,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="dynwar" sourcefile="cps1.cpp">
         <description>Dynasty Wars (USA, B-Board 89624B-?)</description>
         <year>1989</year>
@@ -5541,6 +5575,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="dynwara" sourcefile="cps1.cpp" cloneof="dynwar" romof="dynwar">
         <description>Dynasty Wars (USA, B-Board 88622B-3)</description>
         <year>1989</year>
@@ -5746,6 +5781,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="dynwarj" sourcefile="cps1.cpp" cloneof="dynwar" romof="dynwar">
         <description>Tenchi wo Kurau (Japan)</description>
         <year>1989</year>
@@ -5951,6 +5987,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="dynwarjr" sourcefile="cps1.cpp" cloneof="dynwar" romof="dynwar">
         <description>Tenchi wo Kurau (Japan Resale Ver.)</description>
         <year>1989</year>
@@ -6129,6 +6166,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ffight" sourcefile="cps1.cpp">
         <description>Final Fight (World, set 1)</description>
         <year>1989</year>
@@ -6297,6 +6335,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ffighta" sourcefile="cps1.cpp" cloneof="ffight" romof="ffight">
         <description>Final Fight (World, set 2)</description>
         <year>1989</year>
@@ -6465,6 +6504,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ffightj" sourcefile="cps1.cpp" cloneof="ffight" romof="ffight">
         <description>Final Fight (Japan)</description>
         <year>1989</year>
@@ -6648,6 +6688,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ffightj1" sourcefile="cps1.cpp" cloneof="ffight" romof="ffight">
         <description>Final Fight (Japan 900112)</description>
         <year>1989</year>
@@ -6831,6 +6872,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ffightj2" sourcefile="cps1.cpp" cloneof="ffight" romof="ffight">
         <description>Final Fight (Japan 900305)</description>
         <year>1989</year>
@@ -7014,6 +7056,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ffightj3" sourcefile="cps1.cpp" cloneof="ffight" romof="ffight">
         <description>Final Fight (Japan 900405)</description>
         <year>1989</year>
@@ -7197,6 +7240,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ffightj4" sourcefile="cps1.cpp" cloneof="ffight" romof="ffight">
         <description>Final Fight (Japan 900613)</description>
         <year>1989</year>
@@ -7380,6 +7424,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ffightjh" sourcefile="cps1.cpp" cloneof="ffight" romof="ffight">
         <description>Street Smart / Final Fight (Japan, hack)</description>
         <year>1989</year>
@@ -7547,6 +7592,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ffightu" sourcefile="cps1.cpp" cloneof="ffight" romof="ffight">
         <description>Final Fight (USA, set 1)</description>
         <year>1989</year>
@@ -7715,6 +7761,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ffightu1" sourcefile="cps1.cpp" cloneof="ffight" romof="ffight">
         <description>Final Fight (USA, set 2)</description>
         <year>1989</year>
@@ -7886,6 +7933,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ffightua" sourcefile="cps1.cpp" cloneof="ffight" romof="ffight">
         <description>Final Fight (USA 900112)</description>
         <year>1989</year>
@@ -8054,6 +8102,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ffightub" sourcefile="cps1.cpp" cloneof="ffight" romof="ffight">
         <description>Final Fight (USA 900424)</description>
         <year>1989</year>
@@ -8222,6 +8271,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ffightuc" sourcefile="cps1.cpp" cloneof="ffight" romof="ffight">
         <description>Final Fight (USA 900613)</description>
         <year>1989</year>
@@ -8390,6 +8440,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="forgottn" sourcefile="cps1.cpp">
         <description>Forgotten Worlds (World, newer)</description>
         <year>1988</year>
@@ -8580,6 +8631,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="forgottna" sourcefile="cps1.cpp" cloneof="forgottn" romof="forgottn">
         <description>Forgotten Worlds (World)</description>
         <year>1988</year>
@@ -8767,6 +8819,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="forgottnj" sourcefile="cps1.cpp" cloneof="forgottn" romof="forgottn">
         <description>Forgotten Worlds (Japan)</description>
         <year>1988</year>
@@ -8948,6 +9001,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="forgottnu" sourcefile="cps1.cpp" cloneof="forgottn" romof="forgottn">
         <description>Forgotten Worlds (USA, B-Board 88621B-2, Rev. C)</description>
         <year>1988</year>
@@ -9132,6 +9186,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="forgottnua" sourcefile="cps1.cpp" cloneof="forgottn" romof="forgottn">
         <description>Forgotten Worlds (USA, B-Board 88618B-2, Rev. A)</description>
         <year>1988</year>
@@ -9307,6 +9362,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="forgottnuaa" sourcefile="cps1.cpp" cloneof="forgottn" romof="forgottn">
         <description>Forgotten Worlds (USA, B-Board 88618B-2, Rev. AA)</description>
         <year>1988</year>
@@ -9482,6 +9538,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="forgottnuc" sourcefile="cps1.cpp" cloneof="forgottn" romof="forgottn">
         <description>Forgotten Worlds (USA, B-Board 88618B-2, Rev. C)</description>
         <year>1988</year>
@@ -9657,6 +9714,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="forgottnue" sourcefile="cps1.cpp" cloneof="forgottn" romof="forgottn">
         <description>Forgotten Worlds (USA, B-Board 88618B-2, Rev. E)</description>
         <year>1988</year>
@@ -9832,6 +9890,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ganbare" sourcefile="cps1.cpp">
         <description>Ganbare! Marine Kun (Japan 2K0411)</description>
         <year>2000</year>
@@ -10005,6 +10064,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ghouls" sourcefile="cps1.cpp">
         <description>Ghouls'n Ghosts (World)</description>
         <year>1988</year>
@@ -10187,6 +10247,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="ghoulsu" sourcefile="cps1.cpp" cloneof="ghouls" romof="ghouls">
         <description>Ghouls'n Ghosts (USA)</description>
         <year>1988</year>
@@ -10426,6 +10487,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="gulunpa" sourcefile="cps1.cpp">
         <description>Gulun.Pa! (Japan 931220 L) (prototype)</description>
         <year>1993</year>
@@ -10591,6 +10653,7 @@
         <driver status="imperfect" emulation="good" savestate="supported"/>
         <feature type="graphics" status="imperfect"/>
     </machine>
+
     <machine name="knights" sourcefile="cps1.cpp">
         <description>Knights of the Round (World 911127)</description>
         <year>1991</year>
@@ -10766,6 +10829,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="knightsb2" sourcefile="cps1.cpp" cloneof="knights" romof="knights">
         <description>Knights of the Round (bootleg, World 911127)</description>
         <year>1991</year>
@@ -10927,6 +10991,7 @@
         <driver status="imperfect" emulation="good" savestate="supported"/>
         <feature type="graphics" status="imperfect"/>
     </machine>
+
     <machine name="knightsj" sourcefile="cps1.cpp" cloneof="knights" romof="knights">
         <description>Knights of the Round (Japan 911127, B-Board 91634B-2)</description>
         <year>1991</year>
@@ -11102,6 +11167,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="knightsja" sourcefile="cps1.cpp" cloneof="knights" romof="knights">
         <description>Knights of the Round (Japan 911127, B-Board 89625B-1)</description>
         <year>1991</year>
@@ -11306,6 +11372,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="knightsu" sourcefile="cps1.cpp" cloneof="knights" romof="knights">
         <description>Knights of the Round (USA 911127)</description>
         <year>1991</year>
@@ -11481,6 +11548,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="kod" sourcefile="cps1.cpp">
         <description>The King of Dragons (World 910805)</description>
         <year>1991</year>
@@ -11661,6 +11729,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="kodj" sourcefile="cps1.cpp" cloneof="kod" romof="kod">
         <description>The King of Dragons (Japan 910805, B-Board 90629B-3)</description>
         <year>1991</year>
@@ -11838,6 +11907,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="kodja" sourcefile="cps1.cpp" cloneof="kod" romof="kod">
         <description>The King of Dragons (Japan 910805, B-Board 89625B-1)</description>
         <year>1991</year>
@@ -12042,6 +12112,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="kodr1" sourcefile="cps1.cpp" cloneof="kod" romof="kod">
         <description>The King of Dragons (World 910711)</description>
         <year>1991</year>
@@ -12222,6 +12293,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="kodr2" sourcefile="cps1.cpp" cloneof="kod" romof="kod">
         <description>The King of Dragons (World 910731)</description>
         <year>1991</year>
@@ -12402,6 +12474,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="kodu" sourcefile="cps1.cpp" cloneof="kod" romof="kod">
         <description>The King of Dragons (USA 910910)</description>
         <year>1991</year>
@@ -12582,6 +12655,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="lostwrld" sourcefile="cps1.cpp" cloneof="forgottn" romof="forgottn">
         <description>Lost Worlds (Japan)</description>
         <year>1988</year>
@@ -12757,6 +12831,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="lostwrldo" sourcefile="cps1.cpp" cloneof="forgottn" romof="forgottn">
         <description>Lost Worlds (Japan Old Ver.)</description>
         <year>1988</year>
@@ -12932,6 +13007,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="mbomberj" sourcefile="cps1.cpp" cloneof="slammast" romof="slammast">
         <description>Muscle Bomber: The Body Explosion (Japan 930713)</description>
         <year>1993</year>
@@ -13019,6 +13095,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="mbombrd" sourcefile="cps1.cpp">
         <description>Muscle Bomber Duo: Ultimate Team Battle (World 931206)</description>
         <year>1993</year>
@@ -13112,6 +13189,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="mbombrdj" sourcefile="cps1.cpp" cloneof="mbombrd" romof="mbombrd">
         <description>Muscle Bomber Duo: Heat Up Warriors (Japan 931206)</description>
         <year>1993</year>
@@ -13205,6 +13283,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="megaman" sourcefile="cps1.cpp">
         <description>Mega Man: The Power Battle (CPS1, USA 951006)</description>
         <year>1995</year>
@@ -13388,6 +13467,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="megamana" sourcefile="cps1.cpp" cloneof="megaman" romof="megaman">
         <description>Mega Man: The Power Battle (CPS1, Asia 951006)</description>
         <year>1995</year>
@@ -13571,6 +13651,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="mercs" sourcefile="cps1.cpp">
         <description>Mercs (World 900302)</description>
         <year>1990</year>
@@ -13755,6 +13836,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="mercsj" sourcefile="cps1.cpp" cloneof="mercs" romof="mercs">
         <description>Senjou no Ookami II (Japan 900302)</description>
         <year>1990</year>
@@ -13954,6 +14036,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="mercsu" sourcefile="cps1.cpp" cloneof="mercs" romof="mercs">
         <description>Mercs (USA 900608)</description>
         <year>1990</year>
@@ -14138,6 +14221,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="mercsur1" sourcefile="cps1.cpp" cloneof="mercs" romof="mercs">
         <description>Mercs (USA 900302)</description>
         <year>1990</year>
@@ -14322,6 +14406,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="msword" sourcefile="cps1.cpp">
         <description>Magic Sword: Heroic Fantasy (World 900725)</description>
         <year>1990</year>
@@ -14488,6 +14573,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="mswordj" sourcefile="cps1.cpp" cloneof="msword" romof="msword">
         <description>Magic Sword: Heroic Fantasy (Japan 900623)</description>
         <year>1990</year>
@@ -14669,6 +14755,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="mswordr1" sourcefile="cps1.cpp" cloneof="msword" romof="msword">
         <description>Magic Sword: Heroic Fantasy (World 900623)</description>
         <year>1990</year>
@@ -14835,6 +14922,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="mswordu" sourcefile="cps1.cpp" cloneof="msword" romof="msword">
         <description>Magic Sword: Heroic Fantasy (USA 900725)</description>
         <year>1990</year>
@@ -15001,6 +15089,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="mtwins" sourcefile="cps1.cpp">
         <description>Mega Twins (World 900619)</description>
         <year>1990</year>
@@ -15165,6 +15254,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="nemo" sourcefile="cps1.cpp">
         <description>Nemo (World 901130)</description>
         <year>1990</year>
@@ -15330,6 +15420,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="nemoj" sourcefile="cps1.cpp" cloneof="nemo" romof="nemo">
         <description>Nemo (Japan 901120)</description>
         <year>1990</year>
@@ -15510,6 +15601,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="nemor1" sourcefile="cps1.cpp" cloneof="nemo" romof="nemo">
         <description>Nemo (World 901109)</description>
         <year>1990</year>
@@ -15675,6 +15767,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="pang3" sourcefile="cps1.cpp">
         <description>Pang! 3 (Euro 950601)</description>
         <year>1995</year>
@@ -15766,6 +15859,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="pang3b" sourcefile="cps1.cpp" cloneof="pang3" romof="pang3">
         <description>Pang! 3 (bootleg, set 1)</description>
         <year>1995</year>
@@ -15857,6 +15951,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="pang3b2" sourcefile="cps1.cpp" cloneof="pang3" romof="pang3">
         <description>Pang! 3 (bootleg, set 2)</description>
         <year>1995</year>
@@ -15951,6 +16046,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="pang3b3" sourcefile="cps1.cpp" cloneof="pang3" romof="pang3">
         <description>Pang! 3 (bootleg, set 3)</description>
         <year>1995</year>
@@ -16040,6 +16136,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="pang3j" sourcefile="cps1.cpp" cloneof="pang3" romof="pang3">
         <description>Pang! 3: Kaitou Tachi no Karei na Gogo (Japan 950511)</description>
         <year>1995</year>
@@ -16131,6 +16228,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="pang3r1" sourcefile="cps1.cpp" cloneof="pang3" romof="pang3">
         <description>Pang! 3 (Euro 950511)</description>
         <year>1995</year>
@@ -16222,6 +16320,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="pnickj" sourcefile="cps1.cpp">
         <description>Pnickies (Japan 940608)</description>
         <year>1994</year>
@@ -16403,6 +16502,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="pokonyan" sourcefile="cps1.cpp">
         <description>Pokonyan! Balloon (Japan 940322)</description>
         <year>1994</year>
@@ -16583,6 +16683,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="punisher" sourcefile="cps1.cpp">
         <description>The Punisher (World 930422)</description>
         <year>1993</year>
@@ -16665,6 +16766,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="punisherbz" sourcefile="cps1.cpp" cloneof="punisher" romof="punisher">
         <description>Biaofeng Zhanjing (Chinese bootleg of The Punisher)</description>
         <year>1993</year>
@@ -16798,6 +16900,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="punisherh" sourcefile="cps1.cpp" cloneof="punisher" romof="punisher">
         <description>The Punisher (Hispanic 930422)</description>
         <year>1993</year>
@@ -16880,6 +16983,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="punisherj" sourcefile="cps1.cpp" cloneof="punisher" romof="punisher">
         <description>The Punisher (Japan 930422)</description>
         <year>1993</year>
@@ -16956,6 +17060,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="punisheru" sourcefile="cps1.cpp" cloneof="punisher" romof="punisher">
         <description>The Punisher (USA 930422)</description>
         <year>1993</year>
@@ -17038,6 +17143,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="qad" sourcefile="cps1.cpp">
         <description>Quiz &amp; Dragons: Capcom Quiz Game (USA 920701)</description>
         <year>1992</year>
@@ -17206,6 +17312,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="qadjr" sourcefile="cps1.cpp" cloneof="qad" romof="qad">
         <description>Quiz &amp; Dragons: Capcom Quiz Game (Japan Resale Ver. 940921)</description>
         <year>1994</year>
@@ -17372,6 +17479,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="qtono2j" sourcefile="cps1.cpp">
         <description>Quiz Tonosama no Yabou 2: Zenkoku-ban (Japan 950123)</description>
         <year>1995</year>
@@ -17552,6 +17660,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="rockmanj" sourcefile="cps1.cpp" cloneof="megaman" romof="megaman">
         <description>Rockman: The Power Battle (CPS1, Japan 950922)</description>
         <year>1995</year>
@@ -17735,6 +17844,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2" sourcefile="cps1.cpp">
         <description>Street Fighter II: The World Warrior (World 910522)</description>
         <year>1991</year>
@@ -17919,6 +18029,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2acc" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Accelerator!, bootleg, set 1)</description>
         <year>1992</year>
@@ -18090,6 +18201,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2acca" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Accelerator!, bootleg, set 2)</description>
         <year>1992</year>
@@ -18261,6 +18373,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2accp2" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Accelerator Pt.II, bootleg)</description>
         <year>1992</year>
@@ -18430,6 +18543,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2amf" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Alpha Magic-F, bootleg)</description>
         <year>1992</year>
@@ -18601,6 +18715,7 @@
         </port>
         <driver status="preliminary" emulation="preliminary" savestate="supported"/>
     </machine>
+
     <machine name="sf2amf2" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (L735 Test Rom, bootleg, set 1)</description>
         <year>1992</year>
@@ -18769,6 +18884,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2amf3" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (L735 Test Rom, bootleg, set 2)</description>
         <year>1992</year>
@@ -18937,6 +19053,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2bhh" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Hung Hsi, bootleg)</description>
         <year>1992</year>
@@ -19118,6 +19235,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ce" sourcefile="cps1.cpp">
         <description>Street Fighter II': Champion Edition (World 920513)</description>
         <year>1992</year>
@@ -19299,6 +19417,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ceblp" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (protected bootleg on non-dash board)</description>
         <year>1992</year>
@@ -19488,6 +19607,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2cebltw" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition ('Taiwan' bootleg with PAL)</description>
         <year>1992</year>
@@ -19666,6 +19786,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ceds6" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Dstreet-6, bootleg)</description>
         <year>1992</year>
@@ -19836,6 +19957,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ceea" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (World 920313)</description>
         <year>1992</year>
@@ -20017,6 +20139,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ceja" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Japan 920322)</description>
         <year>1992</year>
@@ -20198,6 +20321,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2cejb" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Japan 920513)</description>
         <year>1992</year>
@@ -20379,6 +20503,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2cejc" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Japan 920803)</description>
         <year>1992</year>
@@ -20560,6 +20685,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2cems6a" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Mstreet-6, bootleg, set 1)</description>
         <year>1992</year>
@@ -20758,6 +20884,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2cems6b" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Mstreet-6, bootleg, set 2)</description>
         <year>1992</year>
@@ -20958,6 +21085,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2cems6c" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Mstreet-6, bootleg, set 3)</description>
         <year>1992</year>
@@ -21158,6 +21286,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2cet" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Taiwan 920313)</description>
         <year>1992</year>
@@ -21339,6 +21468,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ceua" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (USA 920313)</description>
         <year>1992</year>
@@ -21520,6 +21650,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ceub" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (USA 920513)</description>
         <year>1992</year>
@@ -21701,6 +21832,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ceuc" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (USA 920803)</description>
         <year>1992</year>
@@ -21882,6 +22014,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ceupl" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (UPL bootleg)</description>
         <year>1992</year>
@@ -22064,6 +22197,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2dkot2" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Double K.O. Turbo II, bootleg)</description>
         <year>1992</year>
@@ -22235,6 +22369,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2dongb" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Dongfang Bubai protection, bootleg)</description>
         <year>1992</year>
@@ -22406,6 +22541,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ea" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (World 910204)</description>
         <year>1991</year>
@@ -22590,6 +22726,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2eb" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (World 910214)</description>
         <year>1991</year>
@@ -22774,6 +22911,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ebbl" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (TAB Austria, bootleg, set 1)</description>
         <year>1992</year>
@@ -22951,6 +23089,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ebbl2" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (TAB Austria, bootleg, set 3)</description>
         <year>1992</year>
@@ -23122,6 +23261,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ebbl3" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (TAB Austria, bootleg, set 4)</description>
         <year>1992</year>
@@ -23301,6 +23441,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ed" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (World 910318)</description>
         <year>1991</year>
@@ -23485,6 +23626,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ee" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (World 910228)</description>
         <year>1991</year>
@@ -23669,6 +23811,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ef" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (World 910411)</description>
         <year>1991</year>
@@ -23853,6 +23996,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2em" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (World 910129)</description>
         <year>1991</year>
@@ -24037,6 +24181,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2en" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (World 910204, conversion)</description>
         <year>1991</year>
@@ -24233,6 +24378,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2hf" sourcefile="cps1.cpp">
         <description>Street Fighter II': Hyper Fighting (World 921209)</description>
         <year>1992</year>
@@ -24414,6 +24560,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2hfj" sourcefile="cps1.cpp" cloneof="sf2hf" romof="sf2hf">
         <description>Street Fighter II' Turbo: Hyper Fighting (Japan 921209)</description>
         <year>1992</year>
@@ -24595,6 +24742,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2hfu" sourcefile="cps1.cpp" cloneof="sf2hf" romof="sf2hf">
         <description>Street Fighter II': Hyper Fighting (USA 921209)</description>
         <year>1992</year>
@@ -24776,6 +24924,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2j" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (Japan 911210, CPS-B-13)</description>
         <year>1991</year>
@@ -24960,6 +25109,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2j17" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (Japan 911210, CPS-B-17)</description>
         <year>1991</year>
@@ -25144,6 +25294,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ja" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (Japan 910214)</description>
         <year>1991</year>
@@ -25328,6 +25479,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2jc" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (Japan 910306)</description>
         <year>1991</year>
@@ -25512,6 +25664,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2jf" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (Japan 910411)</description>
         <year>1991</year>
@@ -25696,6 +25849,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2jh" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (Japan 910522)</description>
         <year>1991</year>
@@ -25880,6 +26034,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2jl" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (Japan 920312)</description>
         <year>1991</year>
@@ -26064,6 +26219,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2koryu" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Xiang Long, Chinese bootleg)</description>
         <year>1992</year>
@@ -26236,6 +26392,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2level" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (bootleg with level selection)</description>
         <year>1992</year>
@@ -26408,6 +26565,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2m10" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (M10, bootleg)</description>
         <year>1992</year>
@@ -26585,6 +26743,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2m2" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (M2, bootleg)</description>
         <year>1992</year>
@@ -26756,6 +26915,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2m3" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (M3, bootleg)</description>
         <year>1992</year>
@@ -26927,6 +27087,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2m4" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (M4, bootleg)</description>
         <year>1992</year>
@@ -27098,6 +27259,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2m5" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (M5, bootleg)</description>
         <year>1992</year>
@@ -27269,6 +27431,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2m6" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (M6, bootleg)</description>
         <year>1992</year>
@@ -27439,6 +27602,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2m7" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (M7, bootleg)</description>
         <year>1992</year>
@@ -27612,6 +27776,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2m8" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (M8, bootleg)</description>
         <year>1992</year>
@@ -27782,6 +27947,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2qp1" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (Quicken Pt-I, bootleg)</description>
         <year>1991</year>
@@ -27957,6 +28123,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2qp2" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (Quicken, bootleg)</description>
         <year>1991</year>
@@ -28132,6 +28299,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2rb" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Rainbow, bootleg, set 1)</description>
         <year>1992</year>
@@ -28305,6 +28473,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2rb2" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Rainbow, bootleg, set 2)</description>
         <year>1992</year>
@@ -28484,6 +28653,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2rb3" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Rainbow, bootleg, set 3)</description>
         <year>1992</year>
@@ -28657,6 +28827,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2re" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II': Champion Edition (RE, bootleg)</description>
         <year>1992</year>
@@ -28827,6 +28998,7 @@
         <driver status="imperfect" emulation="good" savestate="supported"/>
         <feature type="graphics" status="imperfect"/>
     </machine>
+
     <machine name="sf2red" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Red Wave, bootleg)</description>
         <year>1992</year>
@@ -28998,6 +29170,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2redp2" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (Red Wave PtII, bootleg)</description>
         <year>1992?</year>
@@ -29169,6 +29342,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2rk" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (RK, bootleg)</description>
         <year>1992</year>
@@ -29337,6 +29511,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2rules" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (bootleg with rules screen)</description>
         <year>1992</year>
@@ -29505,6 +29680,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2stt" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (TAB Austria, bootleg, set 2)</description>
         <year>1992</year>
@@ -29676,6 +29852,7 @@
         </port>
         <driver status="preliminary" emulation="preliminary" savestate="supported"/>
     </machine>
+
     <machine name="sf2thndr" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (Thunder Edition, bootleg, set 1)</description>
         <year>1991</year>
@@ -29857,6 +30034,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2thndr2" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (Thunder Edition, bootleg, set 2)</description>
         <year>1991</year>
@@ -30038,6 +30216,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ua" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (USA 910206)</description>
         <year>1991</year>
@@ -30222,6 +30401,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ub" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (USA 910214)</description>
         <year>1991</year>
@@ -30406,6 +30586,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2uc" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (USA 910306)</description>
         <year>1991</year>
@@ -30590,6 +30771,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ud" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (USA 910318)</description>
         <year>1991</year>
@@ -30774,6 +30956,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ue" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (USA 910228)</description>
         <year>1991</year>
@@ -30958,6 +31141,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2uf" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (USA 910411)</description>
         <year>1991</year>
@@ -31142,6 +31326,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ug" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (USA 910522, Rev. G)</description>
         <year>1991</year>
@@ -31326,6 +31511,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2uh" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (USA 910522, Rev. H)</description>
         <year>1991</year>
@@ -31510,6 +31696,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2ui" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (USA 910522, Rev. I)</description>
         <year>1991</year>
@@ -31694,6 +31881,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2uk" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (USA 911101)</description>
         <year>1991</year>
@@ -31878,6 +32066,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2um" sourcefile="cps1.cpp" cloneof="sf2" romof="sf2">
         <description>Street Fighter II: The World Warrior (USA 920312)</description>
         <year>1991</year>
@@ -32062,6 +32251,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2v004" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (V004, bootleg)</description>
         <year>1992</year>
@@ -32233,6 +32423,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sf2yyc" sourcefile="cps1.cpp" cloneof="sf2ce" romof="sf2ce">
         <description>Street Fighter II': Champion Edition (YYC, bootleg)</description>
         <year>1992</year>
@@ -32405,6 +32596,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sfach" sourcefile="cps1.cpp" cloneof="sfzch" romof="sfzch">
         <description>Street Fighter Alpha: Warriors' Dreams (CPS Changer, Publicity USA 950727)</description>
         <year>1995</year>
@@ -32481,6 +32673,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sfzbch" sourcefile="cps1.cpp" cloneof="sfzch" romof="sfzch">
         <description>Street Fighter Zero (CPS Changer, Brazil 950727)</description>
         <year>1995</year>
@@ -32557,6 +32750,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="sfzch" sourcefile="cps1.cpp">
         <description>Street Fighter Zero (CPS Changer, Japan 951020)</description>
         <year>1995</year>
@@ -32633,6 +32827,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="slammast" sourcefile="cps1.cpp">
         <description>Saturday Night Slam Masters (World 930713)</description>
         <year>1993</year>
@@ -32723,6 +32918,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="slammastu" sourcefile="cps1.cpp" cloneof="slammast" romof="slammast">
         <description>Saturday Night Slam Masters (USA 930713)</description>
         <year>1993</year>
@@ -32813,6 +33009,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="strider" sourcefile="cps1.cpp">
         <description>Strider (USA, B-Board 89624B-2)</description>
         <year>1989</year>
@@ -32981,6 +33178,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="striderj" sourcefile="cps1.cpp" cloneof="strider" romof="strider">
         <description>Strider Hiryu (Japan)</description>
         <year>1989</year>
@@ -33176,6 +33374,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="striderjr" sourcefile="cps1.cpp" cloneof="strider" romof="strider">
         <description>Strider Hiryu (Japan Resale Ver.)</description>
         <year>1989</year>
@@ -33344,6 +33543,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="striderua" sourcefile="cps1.cpp" cloneof="strider" romof="strider">
         <description>Strider (USA, B-Board 89624B-3)</description>
         <year>1989</year>
@@ -33512,6 +33712,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="strideruc" sourcefile="cps1.cpp" cloneof="strider" romof="strider">
         <description>Strider (USA, B-Board 90629B-3, buggy Street Fighter II conversion)</description>
         <year>1989</year>
@@ -33678,6 +33879,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="unsquad" sourcefile="cps1.cpp">
         <description>U.N. Squadron (USA)</description>
         <year>1989</year>
@@ -33845,6 +34047,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="varth" sourcefile="cps1.cpp">
         <description>Varth: Operation Thunderstorm (World 920714)</description>
         <year>1992</year>
@@ -34014,6 +34217,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="varthb2" sourcefile="cps1.cpp" cloneof="varth" romof="varth">
         <description>Varth: Operation Thunderstorm (bootleg, set 2)</description>
         <year>1992</year>
@@ -34171,6 +34375,7 @@
         <driver status="imperfect" emulation="good" savestate="supported"/>
         <feature type="graphics" status="imperfect"/>
     </machine>
+
     <machine name="varthj" sourcefile="cps1.cpp" cloneof="varth" romof="varth">
         <description>Varth: Operation Thunderstorm (Japan 920714)</description>
         <year>1992</year>
@@ -34353,6 +34558,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="varthjr" sourcefile="cps1.cpp" cloneof="varth" romof="varth">
         <description>Varth: Operation Thunderstorm (Japan Resale Ver. 920714)</description>
         <year>1992</year>
@@ -34518,6 +34724,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="varthr1" sourcefile="cps1.cpp" cloneof="varth" romof="varth">
         <description>Varth: Operation Thunderstorm (World 920612)</description>
         <year>1992</year>
@@ -34687,6 +34894,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="varthu" sourcefile="cps1.cpp" cloneof="varth" romof="varth">
         <description>Varth: Operation Thunderstorm (USA 920612)</description>
         <year>1992</year>
@@ -34851,6 +35059,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="willow" sourcefile="cps1.cpp">
         <description>Willow (World)</description>
         <year>1989</year>
@@ -35125,6 +35334,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="willowj" sourcefile="cps1.cpp" cloneof="willow" romof="willow">
         <description>Willow (Japan)</description>
         <year>1989</year>
@@ -35414,6 +35624,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="willowu" sourcefile="cps1.cpp" cloneof="willow" romof="willow">
         <description>Willow (USA)</description>
         <year>1989</year>
@@ -35688,6 +35899,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="willowuo" sourcefile="cps1.cpp" cloneof="willow" romof="willow">
         <description>Willow (USA Old Ver.)</description>
         <year>1989</year>
@@ -35962,6 +36174,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="wof" sourcefile="cps1.cpp">
         <description>Warriors of Fate (World 921031)</description>
         <year>1992</year>
@@ -36038,6 +36251,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="wofa" sourcefile="cps1.cpp" cloneof="wof" romof="wof">
         <description>Sangokushi II (Asia 921005)</description>
         <year>1992</year>
@@ -36114,6 +36328,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="wofch" sourcefile="cps1.cpp">
         <description>Tenchi wo Kurau II: Sekiheki no Tatakai (CPS Changer, Japan 921031)</description>
         <year>1994</year>
@@ -36199,6 +36414,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="wofhfh" sourcefile="cps1.cpp" cloneof="wof" romof="wof">
         <description>Huo Feng Huang (Chinese bootleg of Sangokushi II)</description>
         <year>1999</year>
@@ -36300,6 +36516,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="wofj" sourcefile="cps1.cpp" cloneof="wof" romof="wof">
         <description>Tenchi wo Kurau II: Sekiheki no Tatakai (Japan 921031)</description>
         <year>1992</year>
@@ -36376,6 +36593,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="wofr1" sourcefile="cps1.cpp" cloneof="wof" romof="wof">
         <description>Warriors of Fate (World 921002)</description>
         <year>1992</year>
@@ -36452,6 +36670,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="wofu" sourcefile="cps1.cpp" cloneof="wof" romof="wof">
         <description>Warriors of Fate (USA 921031)</description>
         <year>1992</year>
@@ -36528,6 +36747,7 @@
         </port>
         <driver status="good" emulation="good" savestate="supported"/>
     </machine>
+
     <machine name="wonder3" sourcefile="cps1.cpp" cloneof="3wonders" romof="3wonders">
         <description>Wonder 3 (Japan 910520)</description>
         <year>1991</year>
