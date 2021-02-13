@@ -2292,8 +2292,7 @@
     </game>
 
     <game name="fatfury3" sourcefile="neogeo.cpp" romof="neogeo">
-        <description>Fatal Fury 3 - Road to the Final Victory / Garou Densetsu 3 - Haruka-naru Tatakai (NGM-069 ~
-            NGH-069)
+        <description>Fatal Fury 3 - Road to the Final Victory / Garou Densetsu 3 - Haruka-naru Tatakai (NGM-069 ~ NGH-069)
         </description>
         <year>1995</year>
         <manufacturer>SNK</manufacturer>
@@ -5553,8 +5552,7 @@
     </game>
 
     <game name="kof98" sourcefile="neogeo.cpp" romof="neogeo">
-        <description>The King of Fighters '98 - The Slugfest / King of Fighters '98 - Dream Match Never Ends
-            (NGM-2420)
+        <description>The King of Fighters '98 - The Slugfest / King of Fighters '98 - Dream Match Never Ends (NGM-2420)
         </description>
         <year>1998</year>
         <manufacturer>SNK</manufacturer>
@@ -12802,8 +12800,7 @@
     </game>
 
     <game name="ssideki2" sourcefile="neogeo.cpp" romof="neogeo">
-        <description>Super Sidekicks 2 - The World Championship / Tokuten Ou 2 - Real Fight Football (NGM-061 ~
-            NGH-061)
+        <description>Super Sidekicks 2 - The World Championship / Tokuten Ou 2 - Real Fight Football (NGM-061 ~ NGH-061)
         </description>
         <year>1994</year>
         <manufacturer>SNK</manufacturer>
