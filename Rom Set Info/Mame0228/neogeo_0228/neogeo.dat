@@ -2292,8 +2292,7 @@
     </game>
 
     <game name="fatfury3" sourcefile="neogeo.cpp" romof="neogeo">
-        <description>Fatal Fury 3 - Road to the Final Victory / Garou Densetsu 3 - Haruka-naru Tatakai (NGM-069 ~
-            NGH-069)
+        <description>Fatal Fury 3 - Road to the Final Victory / Garou Densetsu 3 - Haruka-naru Tatakai (NGM-069 ~ NGH-069)
         </description>
         <year>1995</year>
         <manufacturer>SNK</manufacturer>
