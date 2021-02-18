@@ -1,0 +1,613 @@
+<mame build="0.228 (mame0228)" debug="no" mameconfig="10">
+
+    <machine name="jdreddp" sourcefile="midtunit.cpp">
+        <description>Judge Dredd (rev TA1 7/12/92, location test)</description>
+        <year>1993</year>
+        <manufacturer>Midway</manufacturer>
+        <rom name="t1_judge_dredd_sound_rom_u3.u3" size="131072" crc="6154d108" sha1="54328455ec22ba815de85aa3bfe6405353c64f5c" region="adpcm:cpu" offset="10000"/>
+        <rom name="t1_judge_dredd_sound_rom_u12.u12" size="524288" crc="ef32f202" sha1="16aea085e63496dec259291de1a64fbeab52f039" region="adpcm:oki" offset="0"/>
+        <rom name="t1_judge_dredd_sound_rom_u13.u13" size="524288" crc="3dc70473" sha1="a3d7210301ff0579889009a075092115d9bf0600" region="adpcm:oki" offset="80000"/>
+        <rom name="t1_judge_dredd_game_rom_uj12.uj12" size="524288" crc="7e5c8d5a" sha1="65c0e887fea01846426067adfc4cf60dce4a1e24" region="maincpu" offset="0"/>
+        <rom name="t1_judge_dredd_game_rom_ug12.ug12" size="524288" crc="a16b8a4a" sha1="77abb31e7cb3b66c63ef7c1874d8544ae9a02667" region="maincpu" offset="1"/>
+        <rom name="t1_judge_dredd_game_rom_ug14.ug14" size="524288" crc="468484d7" sha1="87e3b87051e3afff097333af90efa0eb4dd61a35" region="gfxrom" offset="0"/>
+        <rom name="t1_judge_dredd_game_rom_uj14.uj14" size="524288" crc="fe6ec0ec" sha1="3e3b1774e1c5cf6629fbd3aeff36cadff1adfbf9" region="gfxrom" offset="1"/>
+        <rom name="t1_judge_dredd_game_rom_ug19.ug19" size="524288" crc="e076c08e" sha1="9b52470feac66b258e62e53dfd6a6a74c1e47ac1" region="gfxrom" offset="2"/>
+        <rom name="t1_judge_dredd_game_rom_uj19.uj19" size="524288" crc="bd8cffe0" sha1="7690bfa82ab5c2c102dc5c6e60628f341b83a77b" region="gfxrom" offset="3"/>
+        <rom name="t1_judge_dredd_game_rom_ug16.ug16" size="524288" crc="1d7f12b6" sha1="beb864615a6c554097377a2f2b6dfe361c1fb084" region="gfxrom" offset="200000"/>
+        <rom name="t1_judge_dredd_game_rom_uj16.uj16" size="524288" crc="31d4a71b" sha1="703448956968f1913e5755a6aedf0f7d15ea4a4e" region="gfxrom" offset="200001"/>
+        <rom name="t1_judge_dredd_game_rom_ug20.ug20" size="524288" crc="7b8c370a" sha1="e6562782519610447657d0850481b1f9fd7c08b3" region="gfxrom" offset="200002"/>
+        <rom name="t1_judge_dredd_game_rom_uj20.uj20" size="524288" crc="8fc7bfb9" sha1="c3c31ea641a6e304b060a7938e2ac473db8a7aab" region="gfxrom" offset="200003"/>
+        <rom name="t1_judge_dredd_game_rom_ug17.ug17" size="524288" crc="b6d83d74" sha1="e0e71f691af5b55fb4153a6b80d3055641cb7cf4" region="gfxrom" offset="400000"/>
+        <rom name="t1_judge_dredd_game_rom_uj17.uj17" size="524288" crc="ddc76f0b" sha1="8f3091c6a5ec1488fcd296e75bbd0572f1a4485c" region="gfxrom" offset="400001"/>
+        <rom name="t1_judge_dredd_game_rom_ug22.ug22" size="524288" crc="6705d5b3" sha1="da304ea33cd20c118b97147fe603237fe5940732" region="gfxrom" offset="400002"/>
+        <rom name="t1_judge_dredd_game_rom_uj22.uj22" size="524288" crc="7438295e" sha1="dbc28a9273897d50abf8e7bebe0753949365eb42" region="gfxrom" offset="400003"/>
+        <rom name="t1_judge_dredd_game_rom_ug18.ug18" size="524288" crc="c8a45e01" sha1="6d63a977c30d5f421baf48db55da90c75032a75f" region="gfxrom" offset="600000"/>
+        <rom name="t1_judge_dredd_game_rom_uj18.uj18" size="524288" crc="3e16e7a9" sha1="f517d42594225b06d70404f29e44dc144ad87a72" region="gfxrom" offset="600001"/>
+        <rom name="t1_judge_dredd_game_rom_ug23.ug23" size="524288" crc="0c9edbc4" sha1="bb3926a992efd1923d64c5bc615dac39867f426d" region="gfxrom" offset="600002"/>
+        <rom name="t1_judge_dredd_game_rom_uj23.uj23" size="524288" crc="86ea157d" sha1="9189e07abc73b601a26ae8aaf6d49ed87d1befca" region="gfxrom" offset="600003"/>
+        <device_ref name="tunitvid"/>
+        <device_ref name="tms34010"/>
+        <device_ref name="nvram"/>
+        <device_ref name="watchdog"/>
+        <device_ref name="palette"/>
+        <device_ref name="screen"/>
+        <device_ref name="speaker"/>
+        <device_ref name="wmsadpcm"/>
+        <device_ref name="mc6809e"/>
+        <device_ref name="ym2151"/>
+        <device_ref name="ad7524"/>
+        <device_ref name="okim6295"/>
+        <chip type="cpu" tag="maincpu" name="Texas Instruments TMS34010" clock="50000000"/>
+        <chip type="cpu" tag="adpcm:cpu" name="Motorola MC6809E" clock="2000000"/>
+        <chip type="audio" tag="speaker" name="Speaker"/>
+        <chip type="audio" tag="adpcm" name="Williams ADPCM Sound Board"/>
+        <chip type="audio" tag="adpcm:ym2151" name="Yamaha YM2151 OPM" clock="3579545"/>
+        <chip type="audio" tag="adpcm:dac" name="AD7524 DAC"/>
+        <chip type="audio" tag="adpcm:oki" name="OKI MSM6295 ADPCM" clock="1000000"/>
+        <display tag="screen" type="raster" rotate="0" width="400" height="254" refresh="54.706840" pixclock="8000000" htotal="506" hbend="100" hbstart="500" vtotal="289" vbend="20" vbstart="274"/>
+        <sound channels="1"/>
+        <input players="3" coins="4" tilt="yes">
+            <control type="joy" player="1" buttons="4" ways="8"/>
+            <control type="joy" player="2" buttons="4" ways="8"/>
+            <control type="joy" player="3" buttons="4" ways="8"/>
+        </input>
+        <dipswitch name="Test Switch" tag="DSW" mask="1">
+            <dipvalue name="Off" value="1" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Unused" tag="DSW" mask="2">
+            <dipvalue name="Off" value="2" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Unused" tag="DSW" mask="4">
+            <dipvalue name="Off" value="4" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Unused" tag="DSW" mask="8">
+            <dipvalue name="Off" value="8" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Unused" tag="DSW" mask="16">
+            <dipvalue name="Off" value="16" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Blood" tag="DSW" mask="32">
+            <dipvalue name="Off" value="0"/>
+            <dipvalue name="On" value="32" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Validator" tag="DSW" mask="64">
+            <dipvalue name="Installed" value="0"/>
+            <dipvalue name="None" value="64" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Freeze" tag="DSW" mask="128">
+            <dipvalue name="Off" value="128" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Coin Counters" tag="DSW" mask="768">
+            <dipvalue name="1 Counter, Totalizing" value="512"/>
+            <dipvalue name="2 Counters, 1 count/coin" value="256"/>
+            <dipvalue name="1 Counter, 1 count/coin" value="0" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Country" tag="DSW" mask="3072">
+            <dipvalue name="USA" value="3072" default="yes"/>
+            <dipvalue name="French" value="2048"/>
+            <dipvalue name="German" value="1024"/>
+            <dipvalue name="Unused" value="0"/>
+        </dipswitch>
+        <dipswitch name="Coinage" tag="DSW" mask="28672">
+            <dipvalue name="1" value="28672"/>
+            <dipvalue name="2" value="12288"/>
+            <dipvalue name="3" value="20480" default="yes"/>
+            <dipvalue name="4" value="4096"/>
+            <dipvalue name="ECA" value="24576"/>
+            <dipvalue name="Free Play" value="0"/>
+        </dipswitch>
+        <dipswitch name="Coinage Source" tag="DSW" mask="32768">
+            <dipvalue name="Dipswitch" value="32768"/>
+            <dipvalue name="CMOS" value="0" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Service Mode" tag="IN1" mask="16">
+            <dipvalue name="Off" value="16" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <port tag=":DSW">
+        </port>
+        <port tag=":IN0">
+        </port>
+        <port tag=":IN1">
+        </port>
+        <port tag=":IN2">
+        </port>
+        <driver status="good" emulation="good" savestate="supported"/>
+    </machine>
+
+    <machine name="mk" sourcefile="midtunit.cpp">
+        <description>Mortal Kombat (rev 5.0 T-Unit 03/19/93)</description>
+        <year>1992</year>
+        <manufacturer>Midway</manufacturer>
+        <rom name="sl1_mortal_kombat_u3_sound_rom.u3" size="262144" crc="c615844c" sha1="5732f9053a5f73b0cc3b0166d7dc4430829d5bc7" region="adpcm:cpu" offset="10000"/>
+        <rom name="sl1_mortal_kombat_u12_sound_rom.u12" size="262144" crc="258bd7f9" sha1="463890b23f17350fb9b8a85897b0777c45bc2d54" region="adpcm:oki" offset="0"/>
+        <rom name="sl1_mortal_kombat_u13_sound_rom.u13" size="262144" crc="7b7ec3b6" sha1="6eec1b90d4a4855f34a7ebfbf93f3358d5627db4" region="adpcm:oki" offset="80000"/>
+        <rom name="mkt-uj12.bin" size="524288" crc="f4990bf2" sha1="796ec84d37c8d20ca36d6439c14dee626fb8481e" region="maincpu" offset="0"/>
+        <rom name="mkt-ug12.bin" size="524288" crc="b06aeac1" sha1="f66655eeab67c8cf5e496ae42dbae54d6400586f" region="maincpu" offset="1"/>
+        <rom name="mkt-ug14.bin" size="524288" crc="9e00834e" sha1="2b97b63f52ba1dba6af6ae56c223519a52b2ab9d" region="gfxrom" offset="0"/>
+        <rom name="mkt-uj14.bin" size="524288" crc="f4b0aaa7" sha1="4cc6ee34c89e3cde325ad24b29511f70ae6a5a72" region="gfxrom" offset="1"/>
+        <rom name="mkt-ug19.bin" size="524288" crc="2d8c7ba1" sha1="f891d6eb618dbf3e77f02e0f93da216e20571905" region="gfxrom" offset="2"/>
+        <rom name="mkt-uj19.bin" size="524288" crc="33b9b7a4" sha1="e8ceca4c049e1f55d480a03ff793b595bd04d344" region="gfxrom" offset="3"/>
+        <rom name="mkt-ug16.bin" size="524288" crc="52c9d1e5" sha1="7b1880fca0a11544782b70365c7dd96381ac48e7" region="gfxrom" offset="200000"/>
+        <rom name="mkt-uj16.bin" size="524288" crc="c94c58cf" sha1="974d75667eee779497325d5be8df937f15417edf" region="gfxrom" offset="200001"/>
+        <rom name="mkt-ug20.bin" size="524288" crc="2f7e55d3" sha1="bda6892ee6fcb46959e4d0892bbe7d9fc6072dd3" region="gfxrom" offset="200002"/>
+        <rom name="mkt-uj20.bin" size="524288" crc="eae96df0" sha1="b40532312ba61e4065abfd733dd0c93eecad48e9" region="gfxrom" offset="200003"/>
+        <rom name="mkt-ug17.bin" size="524288" crc="e34fe253" sha1="6b010bee795c1770297c9557ded1fe83425857f2" region="gfxrom" offset="400000"/>
+        <rom name="mkt-uj17.bin" size="524288" crc="a56e12f5" sha1="5db637c4710990cd06bb0069714b19621532e431" region="gfxrom" offset="400001"/>
+        <rom name="mkt-ug22.bin" size="524288" crc="b537bb4e" sha1="05a447deee2e89b49bdb3ca2161a021d7ec5f11e" region="gfxrom" offset="400002"/>
+        <rom name="mkt-uj22.bin" size="524288" crc="5e12523b" sha1="468f93ef9bb6addb45c1c939d24b6511f255426a" region="gfxrom" offset="400003"/>
+        <device_ref name="tunitvid"/>
+        <device_ref name="tms34010"/>
+        <device_ref name="nvram"/>
+        <device_ref name="watchdog"/>
+        <device_ref name="palette"/>
+        <device_ref name="screen"/>
+        <device_ref name="speaker"/>
+        <device_ref name="wmsadpcm"/>
+        <device_ref name="mc6809e"/>
+        <device_ref name="ym2151"/>
+        <device_ref name="ad7524"/>
+        <device_ref name="okim6295"/>
+        <chip type="cpu" tag="maincpu" name="Texas Instruments TMS34010" clock="50000000"/>
+        <chip type="cpu" tag="adpcm:cpu" name="Motorola MC6809E" clock="2000000"/>
+        <chip type="audio" tag="speaker" name="Speaker"/>
+        <chip type="audio" tag="adpcm" name="Williams ADPCM Sound Board"/>
+        <chip type="audio" tag="adpcm:ym2151" name="Yamaha YM2151 OPM" clock="3579545"/>
+        <chip type="audio" tag="adpcm:dac" name="AD7524 DAC"/>
+        <chip type="audio" tag="adpcm:oki" name="OKI MSM6295 ADPCM" clock="1000000"/>
+        <display tag="screen" type="raster" rotate="0" width="400" height="254" refresh="54.706840" pixclock="8000000" htotal="506" hbend="100" hbstart="500" vtotal="289" vbend="20" vbstart="274"/>
+        <sound channels="1"/>
+        <input players="2" coins="4" tilt="yes">
+            <control type="joy" player="1" buttons="6" ways="8"/>
+            <control type="joy" player="2" buttons="6" ways="8"/>
+        </input>
+        <dipswitch name="Test Switch" tag="DSW" mask="1">
+            <dipvalue name="Off" value="1" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Counters" tag="DSW" mask="2">
+            <dipvalue name="One" value="2"/>
+            <dipvalue name="Two" value="0" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Coinage" tag="DSW" mask="124">
+            <dipvalue name="USA-1" value="124" default="yes"/>
+            <dipvalue name="USA-2" value="60"/>
+            <dipvalue name="USA-3" value="92"/>
+            <dipvalue name="USA-4" value="28"/>
+            <dipvalue name="USA-ECA" value="108"/>
+            <dipvalue name="USA-Free Play" value="12"/>
+            <dipvalue name="German-1" value="116"/>
+            <dipvalue name="German-2" value="52"/>
+            <dipvalue name="German-3" value="84"/>
+            <dipvalue name="German-4" value="20"/>
+            <dipvalue name="German-5" value="100"/>
+            <dipvalue name="German-ECA" value="36"/>
+            <dipvalue name="German-Free Play" value="4"/>
+            <dipvalue name="French-1" value="120"/>
+            <dipvalue name="French-2" value="56"/>
+            <dipvalue name="French-3" value="88"/>
+            <dipvalue name="French-4" value="24"/>
+            <dipvalue name="French-ECA" value="104"/>
+            <dipvalue name="French-Free Play" value="8"/>
+        </dipswitch>
+        <dipswitch name="Coinage Source" tag="DSW" mask="128">
+            <dipvalue name="Dipswitch" value="128"/>
+            <dipvalue name="CMOS" value="0" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Skip Post Test" tag="DSW" mask="256">
+            <dipvalue name="Off" value="256"/>
+            <dipvalue name="On" value="0" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Unused" tag="DSW" mask="512">
+            <dipvalue name="Off" value="512" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Unused" tag="DSW" mask="1024">
+            <dipvalue name="Off" value="1024" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Comic Book Offer" tag="DSW" mask="2048">
+            <dipvalue name="Off" value="0"/>
+            <dipvalue name="On" value="2048" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Attract Sound" tag="DSW" mask="4096">
+            <dipvalue name="Off" value="0"/>
+            <dipvalue name="On" value="4096" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Low Blows" tag="DSW" mask="8192">
+            <dipvalue name="Off" value="0"/>
+            <dipvalue name="On" value="8192" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Blood" tag="DSW" mask="16384">
+            <dipvalue name="Off" value="0"/>
+            <dipvalue name="On" value="16384" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Violence" tag="DSW" mask="32768">
+            <dipvalue name="Off" value="0"/>
+            <dipvalue name="On" value="32768" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Service Mode" tag="IN1" mask="16">
+            <dipvalue name="Off" value="16" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <port tag=":DSW">
+        </port>
+        <port tag=":IN0">
+        </port>
+        <port tag=":IN1">
+        </port>
+        <port tag=":IN2">
+        </port>
+        <driver status="good" emulation="good" savestate="supported"/>
+    </machine>
+
+    <machine name="mk2" sourcefile="midtunit.cpp">
+        <description>Mortal Kombat II (rev L3.1)</description>
+        <year>1993</year>
+        <manufacturer>Midway</manufacturer>
+        <rom name="l1_mortal_kombat_ii_sound_rom_u2.u2" size="524288" crc="5f23d71d" sha1="54c2afef243759e0f3dbe2907edbc4302f5c8bad" region="dcs" offset="0"/>
+        <rom name="l1_mortal_kombat_ii_sound_rom_u3.u3" size="524288" crc="d6d92bf9" sha1="397351c6b707f2595e36360471015f9fa494e894" region="dcs" offset="200000"/>
+        <rom name="l1_mortal_kombat_ii_sound_rom_u4.u4" size="524288" crc="eebc8e0f" sha1="705ab63ff7672a4857d546afda6dca4973cce1ad" region="dcs" offset="400000"/>
+        <rom name="l1_mortal_kombat_ii_sound_rom_u5.u5" size="524288" crc="2b0b7961" sha1="1cdc64aab74d14afbd8c3531e3d0bd49271a281f" region="dcs" offset="600000"/>
+        <rom name="l1_mortal_kombat_ii_sound_rom_u6.u6" size="524288" crc="f694b27f" sha1="d43e38a124665f49ebb4ffc5a55e8f19a1a64686" region="dcs" offset="800000"/>
+        <rom name="l1_mortal_kombat_ii_sound_rom_u7.u7" size="524288" crc="20387e0a" sha1="505d05173b2a1f1ee3ebc2898ccd3a95c98dd04a" region="dcs" offset="a00000"/>
+        <rom name="l3.1_mortal_kombat_ii_game_rom_uj12.uj12" size="524288" crc="cf100a75" sha1="c5cf739fdb08e311f47794eb93a8d34d4bc11cde" region="maincpu" offset="0"/>
+        <rom name="l3.1_mortal_kombat_ii_game_rom_ug12.ug12" size="524288" crc="582c7dfd" sha1="f32bd1213ce70f74caa97a2047815cf4baee56b5" region="maincpu" offset="1"/>
+        <rom name="l1_mortal_kombat_ii_game_rom_ug14.ug14" size="1048576" crc="01e73af6" sha1="6598cfd704cc92a7f358a0e1f1c973ab79dcc493" region="gfxrom" offset="0"/>
+        <rom name="l1_mortal_kombat_ii_game_rom_uj14.uj14" size="1048576" crc="d4985cbb" sha1="367865da7efae38d83de3c0868d02a705177ae63" region="gfxrom" offset="1"/>
+        <rom name="l1_mortal_kombat_ii_game_rom_ug19.ug19" size="1048576" crc="fec137be" sha1="f11ecb8a7993f5c4f4449564b4911f69bd6e9bf8" region="gfxrom" offset="2"/>
+        <rom name="l1_mortal_kombat_ii_game_rom_uj19.uj19" size="1048576" crc="2d763156" sha1="06536006da49ab5fb6b75b25f801b83fad000ff5" region="gfxrom" offset="3"/>
+        <rom name="l1_mortal_kombat_ii_game_rom_ug16.ug16" size="1048576" crc="8ba6ae18" sha1="465fe907de4a1e502180c4e41642998dd3abc8e6" region="gfxrom" offset="400000"/>
+        <rom name="l1_mortal_kombat_ii_game_rom_uj16.uj16" size="1048576" crc="39d885b4" sha1="2251826d247c3c6df421124718401fb35a672f83" region="gfxrom" offset="400001"/>
+        <rom name="l1_mortal_kombat_ii_game_rom_ug20.ug20" size="1048576" crc="809118c1" sha1="86153e648834c749e34573151cd4fee403a81962" region="gfxrom" offset="400002"/>
+        <rom name="l1_mortal_kombat_ii_game_rom_uj20.uj20" size="1048576" crc="b96824f0" sha1="d42b122f9a57da330192abc7e5f97abc4065d718" region="gfxrom" offset="400003"/>
+        <rom name="l1_mortal_kombat_ii_game_rom_ug17.ug17" size="1048576" crc="937d8620" sha1="8b9f80a460b124a747a6d1495b53f01f580e28f1" region="gfxrom" offset="800000"/>
+        <rom name="l1_mortal_kombat_ii_game_rom_uj17.uj17" size="1048576" crc="218de160" sha1="87aea173720d2a33d8183903f4fe8ba1d47e3348" region="gfxrom" offset="800001"/>
+        <rom name="l1_mortal_kombat_ii_game_rom_ug22.ug22" size="1048576" crc="154d53b1" sha1="58ff0aa59101f40a9a3b5fbae1c904d0b0b31612" region="gfxrom" offset="800002"/>
+        <rom name="l1_mortal_kombat_ii_game_rom_uj22.uj22" size="1048576" crc="8891d785" sha1="fd460df1ef8f4306ea42f7dc41488a80fd2c8f53" region="gfxrom" offset="800003"/>
+        <device_ref name="tunitvid"/>
+        <device_ref name="tms34010"/>
+        <device_ref name="nvram"/>
+        <device_ref name="watchdog"/>
+        <device_ref name="palette"/>
+        <device_ref name="screen"/>
+        <device_ref name="dcs_audio_2k"/>
+        <device_ref name="adsp2105"/>
+        <device_ref name="timer"/>
+        <device_ref name="timer"/>
+        <device_ref name="speaker"/>
+        <device_ref name="dmadac"/>
+        <chip type="cpu" tag="maincpu" name="Texas Instruments TMS34010" clock="50000000"/>
+        <chip type="cpu" tag="dcs:dcs" name="Analog Devices ADSP-2105" clock="10000000"/>
+        <chip type="audio" tag="dcs:mono" name="Speaker"/>
+        <chip type="audio" tag="dcs:dac" name="DMA-driven DAC"/>
+        <display tag="screen" type="raster" rotate="0" width="400" height="254" refresh="54.706840" pixclock="8000000" htotal="506" hbend="100" hbstart="500" vtotal="289" vbend="20" vbstart="274"/>
+        <sound channels="1"/>
+        <input players="2" coins="4" tilt="yes">
+            <control type="joy" player="1" buttons="6" ways="8"/>
+            <control type="joy" player="2" buttons="6" ways="8"/>
+        </input>
+        <dipswitch name="Test Switch" tag="DSW" mask="1">
+            <dipvalue name="Off" value="1" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Counters" tag="DSW" mask="2">
+            <dipvalue name="One" value="2"/>
+            <dipvalue name="Two" value="0" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Coinage" tag="DSW" mask="124">
+            <dipvalue name="USA-1" value="124" default="yes"/>
+            <dipvalue name="USA-2" value="60"/>
+            <dipvalue name="USA-3" value="92"/>
+            <dipvalue name="USA-4" value="28"/>
+            <dipvalue name="USA-ECA" value="108"/>
+            <dipvalue name="USA-Free Play" value="12"/>
+            <dipvalue name="German-1" value="116"/>
+            <dipvalue name="German-2" value="52"/>
+            <dipvalue name="German-3" value="84"/>
+            <dipvalue name="German-4" value="20"/>
+            <dipvalue name="German-5" value="100"/>
+            <dipvalue name="German-ECA" value="36"/>
+            <dipvalue name="German-Free Play" value="4"/>
+            <dipvalue name="French-1" value="120"/>
+            <dipvalue name="French-2" value="56"/>
+            <dipvalue name="French-3" value="88"/>
+            <dipvalue name="French-4" value="24"/>
+            <dipvalue name="French-ECA" value="104"/>
+            <dipvalue name="French-Free Play" value="8"/>
+        </dipswitch>
+        <dipswitch name="Coinage Source" tag="DSW" mask="128">
+            <dipvalue name="Dipswitch" value="128"/>
+            <dipvalue name="CMOS" value="0" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Circuit Boards" tag="DSW" mask="256">
+            <dipvalue name="2" value="256"/>
+            <dipvalue name="1" value="0" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Powerup Test" tag="DSW" mask="512">
+            <dipvalue name="Off" value="0" default="yes"/>
+            <dipvalue name="On" value="512"/>
+        </dipswitch>
+        <dipswitch name="Bill Validator" tag="DSW" mask="1024">
+            <dipvalue name="Installed" value="0"/>
+            <dipvalue name="Not Present" value="1024" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Comic Book Offer" tag="DSW" mask="2048">
+            <dipvalue name="Off" value="0"/>
+            <dipvalue name="On" value="2048" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Attract Sound" tag="DSW" mask="4096">
+            <dipvalue name="Off" value="0"/>
+            <dipvalue name="On" value="4096" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Low Blows" tag="DSW" mask="8192">
+            <dipvalue name="Off" value="0"/>
+            <dipvalue name="On" value="8192" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Blood" tag="DSW" mask="16384">
+            <dipvalue name="Off" value="0"/>
+            <dipvalue name="On" value="16384" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Violence" tag="DSW" mask="32768">
+            <dipvalue name="Off" value="0"/>
+            <dipvalue name="On" value="32768" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Service Mode" tag="IN1" mask="16">
+            <dipvalue name="Off" value="16" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <port tag=":DSW">
+        </port>
+        <port tag=":IN0">
+        </port>
+        <port tag=":IN1">
+        </port>
+        <port tag=":IN2">
+        </port>
+        <driver status="good" emulation="good" savestate="supported"/>
+    </machine>
+
+    <machine name="nbajam" sourcefile="midtunit.cpp">
+        <description>NBA Jam (rev 3.01 04/07/93)</description>
+        <year>1993</year>
+        <manufacturer>Midway</manufacturer>
+        <rom name="l2_nba_jam_u3_sound_rom.u3" size="131072" crc="3a3ea480" sha1="d12a45cba5c35f046b176661d7877fa4fd0e6c13" region="adpcm:cpu" offset="10000"/>
+        <rom name="nbau12.u12" size="524288" crc="b94847f1" sha1="e7efa0a379bfa91fe4ffb75f07a5dfbfde9a96b4" region="adpcm:oki" offset="0"/>
+        <rom name="nbau13.u13" size="524288" crc="b6fe24bd" sha1="f70f75b5570a2b368ebc74d2a7d264c618940430" region="adpcm:oki" offset="80000"/>
+        <rom name="l3_nba_jam_game_rom_uj12.uj12" size="524288" crc="b93e271c" sha1="b0e9f055376a4a4cd1115a81f71c933903c251b1" region="maincpu" offset="0"/>
+        <rom name="l3_nba_jam_game_rom_ug12.ug12" size="524288" crc="407d3390" sha1="a319bc890d94310e44fe2ec98bfc95665a662701" region="maincpu" offset="1"/>
+        <rom name="l1_nba_jam_game_rom_ug14.ug14" size="524288" crc="04bb9f64" sha1="9e1a8c37e14cb6fe67f4aa3caa9022f356f1ca64" region="gfxrom" offset="0"/>
+        <rom name="l1_nba_jam_game_rom_uj14.uj14" size="524288" crc="b34b7af3" sha1="0abb74d2f414bc9da0380a81beb134f3a87c1a0a" region="gfxrom" offset="1"/>
+        <rom name="l1_nba_jam_game_rom_ug19.ug19" size="524288" crc="a8f22fbb" sha1="514208a9d6d0c8c2d7847cc02d4387eac90be659" region="gfxrom" offset="2"/>
+        <rom name="l1_nba_jam_game_rom_uj19.uj19" size="524288" crc="8130a8a2" sha1="f23f124024285d07d8cf822817b62e42c38b82db" region="gfxrom" offset="3"/>
+        <rom name="l1_nba_jam_game_rom_ug16.ug16" size="524288" crc="8591c572" sha1="237bab2e93abf438a84be3603505db5de59922af" region="gfxrom" offset="200000"/>
+        <rom name="l1_nba_jam_game_rom_uj16.uj16" size="524288" crc="d2e554f1" sha1="139aa39bd48b8605058ece188f9f5e6793561fcb" region="gfxrom" offset="200001"/>
+        <rom name="l1_nba_jam_game_rom_ug20.ug20" size="524288" crc="44fd6221" sha1="1d6754bf2c24950080523f66b77407931babba29" region="gfxrom" offset="200002"/>
+        <rom name="l1_nba_jam_game_rom_uj20.uj20" size="524288" crc="f9cebbb6" sha1="6202e490bc5658bd0741422f841540fcd037cfee" region="gfxrom" offset="200003"/>
+        <rom name="l1_nba_jam_game_rom_ug17.ug17" size="524288" crc="6f921886" sha1="72542249ca6602dc4816952765c1810f064ff394" region="gfxrom" offset="400000"/>
+        <rom name="l1_nba_jam_game_rom_uj17.uj17" size="524288" crc="b2e14981" sha1="5cec9b7fcaa6d0ce5bff689541fc98db435c5b5f" region="gfxrom" offset="400001"/>
+        <rom name="l1_nba_jam_game_rom_ug22.ug22" size="524288" crc="ab05ed89" sha1="4153d098fbaeac963d93f26dcd9d8bc33a48a734" region="gfxrom" offset="400002"/>
+        <rom name="l1_nba_jam_game_rom_uj22.uj22" size="524288" crc="59a95878" sha1="b95165987853f164842ab2b5895ea95484a1d78b" region="gfxrom" offset="400003"/>
+        <rom name="l1_nba_jam_game_rom_ug18.ug18" size="524288" crc="5162d3d6" sha1="14d377977510b7793e4006a7a5089dbfd785d7d1" region="gfxrom" offset="600000"/>
+        <rom name="l1_nba_jam_game_rom_uj18.uj18" size="524288" crc="fdee0037" sha1="3bcc740f4bdb3236822cd6e7ed06241804351cca" region="gfxrom" offset="600001"/>
+        <rom name="l1_nba_jam_game_rom_ug23.ug23" size="524288" crc="7b934c7a" sha1="a6992fb3c50429ac4fa15bd91612ae0c0b8f961d" region="gfxrom" offset="600002"/>
+        <rom name="l1_nba_jam_game_rom_uj23.uj23" size="524288" crc="427d2eee" sha1="4985e3dd9c9e1bedd5a900958bf549656debd494" region="gfxrom" offset="600003"/>
+        <device_ref name="tunitvid"/>
+        <device_ref name="tms34010"/>
+        <device_ref name="nvram"/>
+        <device_ref name="watchdog"/>
+        <device_ref name="palette"/>
+        <device_ref name="screen"/>
+        <device_ref name="speaker"/>
+        <device_ref name="wmsadpcm"/>
+        <device_ref name="mc6809e"/>
+        <device_ref name="ym2151"/>
+        <device_ref name="ad7524"/>
+        <device_ref name="okim6295"/>
+        <chip type="cpu" tag="maincpu" name="Texas Instruments TMS34010" clock="50000000"/>
+        <chip type="cpu" tag="adpcm:cpu" name="Motorola MC6809E" clock="2000000"/>
+        <chip type="audio" tag="speaker" name="Speaker"/>
+        <chip type="audio" tag="adpcm" name="Williams ADPCM Sound Board"/>
+        <chip type="audio" tag="adpcm:ym2151" name="Yamaha YM2151 OPM" clock="3579545"/>
+        <chip type="audio" tag="adpcm:dac" name="AD7524 DAC"/>
+        <chip type="audio" tag="adpcm:oki" name="OKI MSM6295 ADPCM" clock="1000000"/>
+        <display tag="screen" type="raster" rotate="0" width="400" height="254" refresh="54.706840" pixclock="8000000" htotal="506" hbend="100" hbstart="500" vtotal="289" vbend="20" vbstart="274"/>
+        <sound channels="1"/>
+        <input players="4" coins="4" tilt="yes">
+            <control type="joy" player="1" buttons="3" ways="8"/>
+            <control type="joy" player="2" buttons="3" ways="8"/>
+            <control type="joy" player="3" buttons="3" ways="8"/>
+            <control type="joy" player="4" buttons="3" ways="8"/>
+        </input>
+        <dipswitch name="Test Switch" tag="DSW" mask="1">
+            <dipvalue name="Off" value="1" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Powerup Test" tag="DSW" mask="2">
+            <dipvalue name="Off" value="0" default="yes"/>
+            <dipvalue name="On" value="2"/>
+        </dipswitch>
+        <dipswitch name="Unused" tag="DSW" mask="4">
+            <dipvalue name="Off" value="4" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Unused" tag="DSW" mask="8">
+            <dipvalue name="Off" value="8" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Unused" tag="DSW" mask="16">
+            <dipvalue name="Off" value="16" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Video" tag="DSW" mask="32">
+            <dipvalue name="Skip" value="0"/>
+            <dipvalue name="Show" value="32" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Validator" tag="DSW" mask="64">
+            <dipvalue name="Installed" value="0"/>
+            <dipvalue name="Not Present" value="64" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Players" tag="DSW" mask="128">
+            <dipvalue name="2" value="0"/>
+            <dipvalue name="4" value="128" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Coin Counters" tag="DSW" mask="768">
+            <dipvalue name="1 Counter, 1 count/coin" value="768" default="yes"/>
+            <dipvalue name="1 Counter, Totalizing" value="512"/>
+            <dipvalue name="2 Counters, 1 count/coin" value="256"/>
+        </dipswitch>
+        <dipswitch name="Country" tag="DSW" mask="3072">
+            <dipvalue name="USA" value="3072" default="yes"/>
+            <dipvalue name="French" value="2048"/>
+            <dipvalue name="German" value="1024"/>
+        </dipswitch>
+        <dipswitch name="Coinage" tag="DSW" mask="28672">
+            <dipvalue name="1" value="28672" default="yes"/>
+            <dipvalue name="2" value="12288"/>
+            <dipvalue name="3" value="20480"/>
+            <dipvalue name="4" value="4096"/>
+            <dipvalue name="ECA" value="24576"/>
+            <dipvalue name="Free Play" value="0"/>
+        </dipswitch>
+        <dipswitch name="Coinage Source" tag="DSW" mask="32768">
+            <dipvalue name="Dipswitch" value="32768"/>
+            <dipvalue name="CMOS" value="0" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Service Mode" tag="IN1" mask="16">
+            <dipvalue name="Off" value="16" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <port tag=":DSW">
+        </port>
+        <port tag=":IN0">
+        </port>
+        <port tag=":IN1">
+        </port>
+        <port tag=":IN2">
+        </port>
+        <driver status="good" emulation="good" savestate="supported"/>
+    </machine>
+
+    <machine name="nbajamte" sourcefile="midtunit.cpp">
+        <description>NBA Jam TE (rev 4.0 03/23/94)</description>
+        <year>1994</year>
+        <manufacturer>Midway</manufacturer>
+        <rom name="l1_nba_jam_tournament_u3_sound_rom.u3" size="131072" crc="d4551195" sha1="e8908fbe4339fb8c93f7e74113dfd25dda1667ea" region="adpcm:cpu" offset="10000"/>
+        <rom name="l1_nba_jam_tournament_u12_sound_rom.u12" size="524288" crc="4fac97bc" sha1="bd88d8c3edab0e35ad9f9350bcbaa17cda61d87a" region="adpcm:oki" offset="0"/>
+        <rom name="l1_nba_jam_tournament_u13_sound_rom.u13" size="524288" crc="6f27b202" sha1="c1f0db15624d1e7102ce9fd1db49ccf86e8611d6" region="adpcm:oki" offset="80000"/>
+        <rom name="l4_nba_jam_tournament_game_rom_uj12.uj12" size="524288" crc="d7c21bc4" sha1="e05f0299b955500df6a08b1c0b24b932a9cdfa6a" region="maincpu" offset="0"/>
+        <rom name="l4_nba_jam_tournament_game_rom_ug12.ug12" size="524288" crc="7ad49229" sha1="e9ceedb0e620809d8a4d42087d806aa296a4cd59" region="maincpu" offset="1"/>
+        <rom name="l1_nba_jam_tournament_game_rom_ug14.ug14" size="524288" crc="04bb9f64" sha1="9e1a8c37e14cb6fe67f4aa3caa9022f356f1ca64" region="gfxrom" offset="0"/>
+        <rom name="l1_nba_jam_tournament_game_rom_uj14.uj14" size="524288" crc="b34b7af3" sha1="0abb74d2f414bc9da0380a81beb134f3a87c1a0a" region="gfxrom" offset="1"/>
+        <rom name="l1_nba_jam_tournament_game_rom_ug19.ug19" size="524288" crc="a8f22fbb" sha1="514208a9d6d0c8c2d7847cc02d4387eac90be659" region="gfxrom" offset="2"/>
+        <rom name="l1_nba_jam_tournament_game_rom_uj19.uj19" size="524288" crc="8130a8a2" sha1="f23f124024285d07d8cf822817b62e42c38b82db" region="gfxrom" offset="3"/>
+        <rom name="l1_nba_jam_tournament_game_rom_ug16.ug16" size="524288" crc="c7ce74d0" sha1="93861cd909e0f28ed112096d6f9fc57d0d31c57c" region="gfxrom" offset="200000"/>
+        <rom name="l1_nba_jam_tournament_game_rom_uj16.uj16" size="524288" crc="905ad88b" sha1="24c336ccc0e2ac0ee96a34ad6fe4aa7464de0009" region="gfxrom" offset="200001"/>
+        <rom name="l1_nba_jam_tournament_game_rom_ug20.ug20" size="524288" crc="8a48728c" sha1="3684099b4934b027336c319c77d9e0710b8c22dc" region="gfxrom" offset="200002"/>
+        <rom name="l1_nba_jam_tournament_game_rom_uj20.uj20" size="524288" crc="bf263d61" sha1="b5b59e8df55f8030eff068c1d8b07dad8521bf5d" region="gfxrom" offset="200003"/>
+        <rom name="l1_nba_jam_tournament_game_rom_ug17.ug17" size="524288" crc="9401be62" sha1="597413a8a1eb66a7ad89af2f548fa3062e5e8efb" region="gfxrom" offset="400000"/>
+        <rom name="l1_nba_jam_tournament_game_rom_uj17.uj17" size="524288" crc="8a852b9e" sha1="604c7f4305887e9505320630027765ea76607c58" region="gfxrom" offset="400001"/>
+        <rom name="l1_nba_jam_tournament_game_rom_ug22.ug22" size="524288" crc="3b05133b" sha1="f6067abb92b8751afe7352a4f1b1a22c9528002b" region="gfxrom" offset="400002"/>
+        <rom name="l1_nba_jam_tournament_game_rom_uj22.uj22" size="524288" crc="39791051" sha1="7aa02500ddacd31fca04044a22a38f36452ca300" region="gfxrom" offset="400003"/>
+        <rom name="l1_nba_jam_tournament_game_rom_ug18.ug18" size="524288" crc="6fd08f57" sha1="5b7031dffc88374c5bfdf3021aa01ec4e28d0631" region="gfxrom" offset="600000"/>
+        <rom name="l1_nba_jam_tournament_game_rom_uj18.uj18" size="524288" crc="4eb73c26" sha1="693bf45f777da8e55b7bcd8699ea5bd711964941" region="gfxrom" offset="600001"/>
+        <rom name="l1_nba_jam_tournament_game_rom_ug23.ug23" size="524288" crc="854f73bc" sha1="242cc8ce28711f6f0787524a1070eb4b0956e6ae" region="gfxrom" offset="600002"/>
+        <rom name="l1_nba_jam_tournament_game_rom_uj23.uj23" size="524288" crc="f8c30998" sha1="33e2f982d74e9f3686b1f4a8172c49fb8b604cf5" region="gfxrom" offset="600003"/>
+        <device_ref name="tunitvid"/>
+        <device_ref name="tms34010"/>
+        <device_ref name="nvram"/>
+        <device_ref name="watchdog"/>
+        <device_ref name="palette"/>
+        <device_ref name="screen"/>
+        <device_ref name="speaker"/>
+        <device_ref name="wmsadpcm"/>
+        <device_ref name="mc6809e"/>
+        <device_ref name="ym2151"/>
+        <device_ref name="ad7524"/>
+        <device_ref name="okim6295"/>
+        <chip type="cpu" tag="maincpu" name="Texas Instruments TMS34010" clock="50000000"/>
+        <chip type="cpu" tag="adpcm:cpu" name="Motorola MC6809E" clock="2000000"/>
+        <chip type="audio" tag="speaker" name="Speaker"/>
+        <chip type="audio" tag="adpcm" name="Williams ADPCM Sound Board"/>
+        <chip type="audio" tag="adpcm:ym2151" name="Yamaha YM2151 OPM" clock="3579545"/>
+        <chip type="audio" tag="adpcm:dac" name="AD7524 DAC"/>
+        <chip type="audio" tag="adpcm:oki" name="OKI MSM6295 ADPCM" clock="1000000"/>
+        <display tag="screen" type="raster" rotate="0" width="400" height="254" refresh="54.706840" pixclock="8000000" htotal="506" hbend="100" hbstart="500" vtotal="289" vbend="20" vbstart="274"/>
+        <sound channels="1"/>
+        <input players="4" coins="4" service="yes" tilt="yes">
+            <control type="joy" player="1" buttons="3" ways="8"/>
+            <control type="joy" player="2" buttons="3" ways="8"/>
+            <control type="joy" player="3" buttons="3" ways="8"/>
+            <control type="joy" player="4" buttons="3" ways="8"/>
+        </input>
+        <dipswitch name="Test Switch" tag="DSW" mask="1">
+            <dipvalue name="Off" value="1" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Powerup Test" tag="DSW" mask="2">
+            <dipvalue name="Off" value="0" default="yes"/>
+            <dipvalue name="On" value="2"/>
+        </dipswitch>
+        <dipswitch name="Unused" tag="DSW" mask="4">
+            <dipvalue name="Off" value="4" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Unused" tag="DSW" mask="8">
+            <dipvalue name="Off" value="8" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Unused" tag="DSW" mask="16">
+            <dipvalue name="Off" value="16" default="yes"/>
+            <dipvalue name="On" value="0"/>
+        </dipswitch>
+        <dipswitch name="Unused" tag="DSW" mask="32">
+            <dipvalue name="Off" value="0"/>
+            <dipvalue name="On" value="32" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Validator" tag="DSW" mask="64">
+            <dipvalue name="Installed" value="0"/>
+            <dipvalue name="Not Present" value="64" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Players" tag="DSW" mask="128">
+            <dipvalue name="2" value="0"/>
+            <dipvalue name="4" value="128" default="yes"/>
+        </dipswitch>
+        <dipswitch name="Coin Counters" tag="DSW" mask="768">
+            <dipvalue name="1 Counter, 1 count/coin" value="768" default="yes"/>
+            <dipvalue name="1 Counter, Totalizing" value="512"/>
+            <dipvalue name="2 Counters, 1 count/coin" value="256"/>
+        </dipswitch>
+        <dipswitch name="Country" tag="DSW" mask="3072">
+            <dipvalue name="USA" value="3072" default="yes"/>
+            <dipvalue name="French" value="2048"/>
+            <dipvalue name="German" value="1024"/>
+        </dipswitch>
+        <dipswitch name="Coinage" tag="DSW" mask="28672">
+            <dipvalue name="1" value="28672" default="yes"/>
+            <dipvalue name="2" value="12288"/>
+            <dipvalue name="3" value="20480"/>
+            <dipvalue name="4" value="4096"/>
+            <dipvalue name="ECA" value="24576"/>
+            <dipvalue name="Free Play" value="0"/>
+        </dipswitch>
+        <dipswitch name="Coinage Source" tag="DSW" mask="32768">
+            <dipvalue name="Dipswitch" value="32768"/>
+            <dipvalue name="CMOS" value="0" default="yes"/>
+        </dipswitch>
+        <port tag=":DSW">
+        </port>
+        <port tag=":IN0">
+        </port>
+        <port tag=":IN1">
+        </port>
+        <port tag=":IN2">
+        </port>
+        <driver status="good" emulation="good" savestate="supported"/>
+    </machine>
+</mame>
